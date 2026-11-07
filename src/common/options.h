@@ -43,13 +43,13 @@ struct Options {
     bool shader_preload = false;  // native/vulkan.cpp makes earlier runs' shaders and pipelines at the start
     bool motion_blur = true;   // the blur by speed and the nitrous' radial blur, src/game/game.cpp skips them when off
     // cheats, src/game/game.cpp's ApplyCheats
-    bool cheat_nos = false;           // the nitrous never runs out
+    /*bool cheat_nos = false;           // the nitrous never runs out
     bool cheat_speedbreaker = false;  // the speedbreaker never runs out
     bool cheat_cash = false;          // the career's cash kept at kCheatCash
     bool cheat_no_police = false;     // no new cops or pursuits
     bool cheat_unlock_all = false;    // every car, part and race unlocked
     bool cheat_no_traffic = false;    // no traffic cars, src/game/game.cpp
-    bool cheat_drag_shift = false;    // the gears shift by themselves in drag races, from the next race
+    bool cheat_drag_shift = false;    // the gears shift by themselves in drag races, from the next race*/
     bool skip_movies = false;         // the movies end as they start, src/game/game.cpp
     uint32_t audio_output = 0;  // audio::kOutputAuto, kOutputStereo, kOutputSurround or kOutputMono
     std::string language = "int";  // one of kLanguages
